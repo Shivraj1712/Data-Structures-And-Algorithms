@@ -59,7 +59,7 @@ public:
                 temp[i] = arr[i];
             }
             temp[index] = val;
-            for(int i = index + 1 ; i < size ; ++i){
+            for(int i = index + 1 ; i <= size ; ++i){
                 temp[i] = arr[i-1];
             }
             delete[] arr;

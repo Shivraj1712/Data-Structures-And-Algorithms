@@ -84,7 +84,7 @@ public:
             cout<<"Index Out Of Bound"<<endl;
             return ;
         }
-        int * temp = new int[size-1];
+        int * temp = new int[size];
         for(int i = 0 ; i < index ; ++i){
             temp[i] = arr[i];
         }

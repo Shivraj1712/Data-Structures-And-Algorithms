@@ -3,6 +3,7 @@
 using namespace std;
 
 class MaxSubarraySumOfSizeK{
+public:
     // GFG - Maximum Subarray sum of size k 
     int maxSubarraySum(vector<int>& arr, int k) {
         int currSum = 0, maxSum =0 ;

@@ -2,16 +2,16 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class SubarraySumEqualsK{
-public:
-    // LC - 560
-    int subarraySum(vector<int>& nums, int k) {
+class BinarySubarraysWithSum{
+public: 
+    // LC - 930
+    int numSubarraysWithSum(vector<int>& nums, int goal) {
         int count = 0 , running_sum = 0 ;
         unordered_map<int,int> state ;
         state[0] = 1;
         for(int i = 0 ; i < nums.size() ; ++i){
             running_sum += nums[i];
-            int target = running_sum - k ;
+            int target = running_sum - goal;
             if(state.find(target) != state.end()){
                 count += state[target];
             }

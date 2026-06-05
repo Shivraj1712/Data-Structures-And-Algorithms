@@ -12,3 +12,5 @@
     - longestSubstringWithoutRepeatingCharacter.cpp
     - twoSumIIinputArrayIsSorted.cpp
     - containerWithMostWater.cpp
+    - subarraysSumEqualsK.cpp
+    - binarySubarrayWithSum.cpp

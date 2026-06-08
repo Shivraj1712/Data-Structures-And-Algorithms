@@ -15,3 +15,9 @@
     - subarraysSumEqualsK.cpp
     - binarySubarrayWithSum.cpp
     - maximumSubarray.cpp
+### Linked Lists
+    - singly_linked_list.cpp
+    - doubly_linked_list.cpp
+    - linked_list_two_pointers.cpp
+    - linked_list_manipulation.cpp
+    - linked_list_advanced_lookup.cpp

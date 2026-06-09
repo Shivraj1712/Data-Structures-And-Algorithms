@@ -3,6 +3,7 @@ using namespace std;
 
 class LinkedListManipulation{
 public:
+    // Linked list Maninpulation
     // LC - 206
     ListNode* reverseList(ListNode* head) {
         if(head == nullptr || head ->next == nullptr) return head;
@@ -116,16 +117,6 @@ public:
             curr = curr->next;
         }
         return dummy->next;
-    }
-    ListNode* reverseList(ListNode* head){
-        ListNode * curr = head, * prev = nullptr, * next = nullptr;
-        while(curr != nullptr){
-            next = curr -> next;
-            curr -> next = prev;
-            prev = curr;
-            curr = next;
-        }
-        return prev;
     }
     // LC - 2
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {

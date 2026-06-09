@@ -1,4 +1,6 @@
-#includ<iostream>
+#include<iostream>
+using namespace std;
+
 struct ListNode {
     int val;
     ListNode *next;
@@ -9,6 +11,17 @@ struct ListNode {
 
 class LinkedListTwoPointers {
 public:
+    ListNode* reverseList(ListNode* head){
+        ListNode * prev = nullptr, * curr = head , * next = nullptr;
+        while(curr != nullptr){
+            next = curr -> next;
+            curr -> next = prev ;
+            prev = curr ;
+            curr = next ;
+        }
+        return prev;
+    }
+
     // LC - 1721
     ListNode* swapNodes(ListNode* head, int k) {
         ListNode * slow = head , * fast = head;
@@ -23,6 +36,7 @@ public:
         swap(slow->val,fast->val);
         return head;
     }
+
     // LC - 19
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         int size = 0 ;
@@ -46,17 +60,8 @@ public:
         slow->next = slow->next->next;
         return head;
     }
+
     // LC - 143
-    ListNode* revList(ListNode * head){
-        ListNode * prev = nullptr, * curr = head, * next = nullptr;
-        while(curr != nullptr){
-            next = curr->next;
-            curr->next= prev;
-            prev = curr;
-            curr= next;
-        }
-        return prev;
-    }
     void reorderList(ListNode* head) {
         if(!head || !head->next) return ;
         ListNode * slow = head , * fast = head ;
@@ -66,7 +71,7 @@ public:
         }
         ListNode * rev = slow->next;
         slow->next = nullptr;
-        ListNode * l2 = revList(rev);
+        ListNode * l2 = reverseList(rev);
         ListNode * temp = head;
         bool first = false;
         ListNode * l1 = head->next;
@@ -83,26 +88,21 @@ public:
         }
         (l1 != nullptr) ? temp->next = l1 : temp->next = l2;
     }
+
     // LC - 61
-    ListNode * reverseList(ListNode * head){
-        ListNode * prev = nullptr, * curr = head , * next = nullptr;
-        while(curr != nullptr){
-            next = curr -> next;
-            curr -> next = prev ;
-            prev = curr ;
-            curr = next ;
-        }
-        return prev;
-    }
     ListNode* rotateRight(ListNode* head, int k) {
+        if(!head || !head->next || k == 0) return head;
+        
         int size = 0 ;
         ListNode * t = head;
         while(t != nullptr){
             t = t -> next;
             size = size + 1;
         }
-        if(!head || k == 0 || k % size == 0) return head;
+        
+        if(k % size == 0) return head;
         k = k % size;
+        
         head = reverseList(head);
         ListNode * firstPart = head , * secondPart = head;
         ListNode * temp = head ;
@@ -118,6 +118,7 @@ public:
         temp->next = secondPart ;
         return firstPart;
     }
+
     // LC - 141
     bool hasCycle(ListNode *head) {
         ListNode * fast = head , * slow = head;

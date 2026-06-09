@@ -3,7 +3,7 @@
 
 ## Data Structures
 
-### Arrays (Two Pointers, Sliding Windows & Prefix Sums)
+### Arrays
     * [ Done ] LC 26: Remove Duplicates from Sorted Array
     * [ Done ] LC 167: Two Sum II - Input Array Is Sorted
     * [ Done ] LC 11: Container With Most Water
@@ -50,19 +50,18 @@
     * [ Done ] LC 61: Rotate List
     * [ Done ] LC 19: Remove Nth Node From End of List
     * [ Done ] LC 141: Linked List Cycle
-    * [ ] LC 21: Merge Two Sorted Lists
-    * [ ] LC 206: Reverse Linked List
-    * [ ] LC 1669: Merge In Between Linked Lists
-    * [ ] LC 2181: Merge Nodes in Between Zeros
-    * [ ] LC 24: Swap Nodes in Pairs
+    * [ Done ] LC 21: Merge Two Sorted Lists
+    * [ Done ] LC 206: Reverse Linked List
+    * [ Done ] LC 1669: Merge In Between Linked Lists
+    * [ Done ] LC 2181: Merge Nodes in Between Zeros
+    * [ Done ] LC 24: Swap Nodes in Pairs
     * [ ] LC 725: Split Linked List in Parts
-    * [ ] LC 2046: Sort Linked List Already Sorted Using Absolute Values
     * [ ] LC 23: Merge k Sorted Lists
     * [ ] LC 25: Reverse Nodes in k-Group
-    * [ ] LC 3217: Delete Nodes From Linked List Present in Array
+    * [ Done ] LC 3217: Delete Nodes From Linked List Present in Array
     * [ ] LC 1171: Remove Zero Sum Consecutive Nodes from Linked List
-    * [ ] LC 2: Add Two Numbers
-    * [ ] LC 445: Add Two Numbers II
+    * [ Done ] LC 2: Add Two Numbers
+    * [ Done ] LC 445: Add Two Numbers II
     * [ ] LC 1367: Linked List in Binary Tree
     * [ ] LC 1019: Next Greater Node In Linked List
     * [ ] LC 2807: Insert Greatest Common Divisors in Linked List

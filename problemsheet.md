@@ -13,18 +13,12 @@
     * [ Done ] Max Subarray Sum of Size K
     * [ Done ] LC 560: Subarray Sum Equals K
     * [ Done ] LC 930: Binary Subarrays With Sum
-    * [ ] LC 523: Continuous Subarray Sum
-    * [ ] LC 974: Subarray Sums Divisible by K
-    * [ ] LC 1124: Longest Well-Performing Interval
-    * [ ] LC 1371: Find the Longest Substring Containing Vowels in Even Counts
-    * [ ] LC 1590: Make Sum Divisible by P
-    * [ ] LC 1658: Minimum Operations to Reduce X to Zero
-    * [ ] LC 2024: Maximize the Confusion of an Exam
-    * [ ] LC 2588: Count the Number of Beautiful Subarrays
+    * [ Done ] LC 523: Continuous Subarray Sum
+    * [ Done ] LC 974: Subarray Sums Divisible by K
     * [ Done ] LC 1: Two Sum
     * [ Done ] LC 217: Contains Duplicate
-    * [ ] LC 242: Valid Anagram
-    * [ ] LC 454: 4Sum II
+    * [ Done ] LC 242: Valid Anagram
+    * [ DOn ] LC 454: 4Sum II
     * [ ] LC 49: Group Anagrams
     * [ ] LC 347: Top K Frequent Elements
     * [ ] LC 692: Top K Frequent Words
@@ -45,7 +39,6 @@
 
 ### Linked Lists
     * [ Done ] LC 1721: Swapping Nodes in a Linked List
-    * [ ] LC 2058: Find the Minimum and Maximum Number of Nodes Between Critical Points
     * [ Done ] LC 143: Reorder List
     * [ Done ] LC 61: Rotate List
     * [ Done ] LC 19: Remove Nth Node From End of List
@@ -55,18 +48,9 @@
     * [ Done ] LC 1669: Merge In Between Linked Lists
     * [ Done ] LC 2181: Merge Nodes in Between Zeros
     * [ Done ] LC 24: Swap Nodes in Pairs
-    * [ ] LC 725: Split Linked List in Parts
-    * [ ] LC 23: Merge k Sorted Lists
-    * [ ] LC 25: Reverse Nodes in k-Group
     * [ Done ] LC 3217: Delete Nodes From Linked List Present in Array
-    * [ ] LC 1171: Remove Zero Sum Consecutive Nodes from Linked List
     * [ Done ] LC 2: Add Two Numbers
     * [ Done ] LC 445: Add Two Numbers II
-    * [ ] LC 1367: Linked List in Binary Tree
-    * [ ] LC 1019: Next Greater Node In Linked List
-    * [ ] LC 2807: Insert Greatest Common Divisors in Linked List
-    * [ ] LC 138: Copy List with Random Pointer
-    * [ ] LC 146: LRU Cache
 
 ### Stacks
     * [ ] LC 20: Valid Parentheses

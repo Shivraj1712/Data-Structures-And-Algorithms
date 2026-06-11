@@ -217,10 +217,10 @@
 ## Algorithms
 
 ### Binary Search
-    * [ ] LC 704: Binary Search
-    * [ ] LC 34: Find First and Last Position of Element in Sorted Array
-    * [ ] LC 162: Find Peak Element
-    * [ ] LC 33: Search in Rotated Sorted Array
+    * [ Done ] LC 704: Binary Search
+    * [ Done ] LC 34: Find First and Last Position of Element in Sorted Array
+    * [ Done ] LC 162: Find Peak Element
+    * [ Done ] LC 33: Search in Rotated Sorted Array
     * [ ] LC 81: Search in Rotated Sorted Array II
     * [ ] LC 153: Find Minimum in Rotated Sorted Array
     * [ ] LC 540: Single Element in a Sorted Array
